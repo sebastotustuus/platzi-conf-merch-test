@@ -1,5 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Information = () => <h1>Information</h1>
+const Information = () => <h1>Information</h1>;
 
 export default Information;
