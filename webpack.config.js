@@ -7,12 +7,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/', //* Siempre servirá el archivo de rutas principal */
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: 9000,
     compress: true,
     open: true,
+    historyApiFallback: true, //* Mantiene el historico de las rutas*/
   },
   resolve: {
     extensions: ['.js', '.jsx'] /** Extensiones permitidas en el proyecto */,
