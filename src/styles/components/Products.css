@@ -43,6 +43,7 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 300;
+  color: white;
 }
 .products-item button:hover {
   background-color: rgba(39,44,49,0.06);
