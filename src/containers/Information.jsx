@@ -23,8 +23,7 @@ const Information = () => {
     if (voids === 0) {
       addToBuyer(buyer);
       history.push('/checkout/payment');
-    }
-    else {
+    } else {
       // eslint-disable-next-line no-undef
       alert('Faltan campos por llenar');
     }
