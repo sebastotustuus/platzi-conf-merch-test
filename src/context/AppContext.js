@@ -10,4 +10,3 @@ export const AppProvider = ({ children }) => {
     <AppContext.Provider value={initialState}>{children}</AppContext.Provider>
   );
 };
-
